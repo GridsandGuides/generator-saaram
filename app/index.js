@@ -4,6 +4,8 @@ var path = require('path');
 var yeoman = require('yeoman-generator');
 var chalk = require('chalk');
 var mkdirp = require('mkdirp');
+
+
  
 var OnepageGenerator = yeoman.generators.Base.extend({
  // promptUser: function() {
@@ -93,3 +95,6 @@ var OnepageGenerator = yeoman.generators.Base.extend({
 });
  
 module.exports = OnepageGenerator;
+
+
+
