@@ -1,0 +1,25 @@
+{
+  "name": "generator-saaram",
+  "version": "1.0.0",
+  "description": "Generator to Bootstrap Angular",
+  "repository": {
+    "type": "git",
+    "url": "https://rajavasanthan@bitbucket.org/rajavasanthan/generator-saaram.git"
+  },
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "files": [
+    "app",
+    "router"
+  ],
+  "author": "Rajavasanthan",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "mkdirp": "^0.5.1",
+    "path": "^0.12.7",
+    "util": "^0.10.3",
+    "yeoman-generator": "^0.21.1"
+  }
+}
