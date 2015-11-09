@@ -24,15 +24,34 @@ module.exports = function(grunt) {
           src:'app/index.html',dest:'build/index.html'
         }
       },
+      includeSource: {
+        options: {
+          basePath: 'app',
+          baseUrl: '',
+          templates : {
+            js: '<script src="{filePath}"></script>',
+            css: '<link rel="stylesheet" type="text/css" href="{filePath}" />'
+          }
+        },
+        myTarget: {
+          files: {
+            'app/index.html' : 'app/index.html'
+          }
+        }
+      },
       watch: {
         scripts : {
           files: ['bower_components/*'],
           tasks: ['wiredep']
+        },
+        source : {
+          files: ['app/assets/js/**/*','app/assets/css/**/*'],
+          tasks: ['includeSource']
         }
       } 
   });
 
-  grunt.registerTask('build', [
+grunt.registerTask('build', [
     'copy:task0',
     'useminPrepare',
     'concat',

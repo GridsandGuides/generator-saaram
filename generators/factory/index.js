@@ -9,7 +9,7 @@ var OnepageGenerator = yeoman.generators.Base.extend({
 	controller: function (fileName,factoryName) {
     this.fs.copyTpl(
           this.templatePath('_factory.js'),
-          this.destinationPath('app/assets/factories/' + fileName + '.js'),
+          this.destinationPath('app/assets/js/factories/' + fileName + '.js'),
           { factoryName: factoryName }
         );
   }
