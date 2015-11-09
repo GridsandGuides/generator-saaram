@@ -1,0 +1,24 @@
+{
+  "name": "generator-saaram",
+  "version": "1.0.0",
+  "description": "Generator to Bootstrap Angular",
+  "repository": "https://github.com/GridsandGuides/generator-saaram",
+  "keywords": [
+    "yeoman-generator",
+    "saaram"
+  ],
+  "files": [
+    "generators/app"
+  ],
+  "author": "Rajavasanthan",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "mkdirp": "^0.5.1",
+    "path": "^0.12.7",
+    "util": "^0.10.3",
+    "yeoman-generator": "^0.21.1"
+  }
+}
+
+
