@@ -2,10 +2,7 @@
   "name": "generator-saaram",
   "version": "1.0.0",
   "description": "Generator to Bootstrap Angular",
-  "repository": {
-    "type": "git",
-    "url": "https://rajavasanthan@bitbucket.org/rajavasanthan/generator-saaram.git"
-  },
+  "repository": "https://github.com/GridsandGuides/generator-saaram",
   "keywords": [
     "yeoman-generator",
     "saaram"
