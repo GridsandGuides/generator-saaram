@@ -6,11 +6,11 @@ var chalk = require('chalk');
 var mkdirp = require('mkdirp');
  
 var OnepageGenerator = yeoman.generators.Base.extend({
-	controller: function (fileName,directiveName) {
+	controller: function (fileName,controllerName) {
     this.fs.copyTpl(
-          this.templatePath('_directive.js'),
-          this.destinationPath('public/app/assets/directives/' + fileName + '.js'),
-          { directiveName: directiveName }
+          this.templatePath('_controller.js'),
+          this.destinationPath('app/assets/js/controllers/' + fileName + '.js'),
+          { controllerName: controllerName }
         );
   }
 });
