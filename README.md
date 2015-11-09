@@ -1,14 +1,23 @@
 # Saaram Generator (சாரம்)
-Saaram is a Yomen generator for scafolding Angular JS project.
+> Saaram is a [Yeoman](http://yeoman.io) generator for scafolding Angular JS project.
+
 
 ## Getting Started
-To install saaram from npm
+To install saaram through Yomen
 
-```
-$ npm install -g generator-saaram
-```
 
-Initiate the generator
 ```
 $ yo saaram
+```
+
+After that Run npm update
+
+```
+$ npm update
+```
+
+Bower update
+
+```
+$ bower update
 ```
